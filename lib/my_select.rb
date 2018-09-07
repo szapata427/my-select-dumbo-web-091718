@@ -2,9 +2,10 @@ def my_select(nums)
   
   if block_given?
   end
-  nums.select  |num|
-    num.even?
+  collection.select  |collect|
   
+    collect.even?
+    
+  end
 
 end
-nums
