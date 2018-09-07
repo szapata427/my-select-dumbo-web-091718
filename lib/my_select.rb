@@ -1,9 +1,9 @@
-def my_select(collection)
+def my_select(nums)
   
   if block_given?
   end
-  collection.select do |collect|
-    
+  nums.select  |num|
+    num.even?
   end
 
 end
