@@ -4,6 +4,6 @@ def my_select(nums)
   end
   nums.select  |num|
     num.even?
-  end
-
+  
+nums
 end
