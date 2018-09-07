@@ -6,6 +6,6 @@ def my_select(nums)
   
     collect.even?
     
-  end
+  
 
 end
